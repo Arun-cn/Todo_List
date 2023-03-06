@@ -1,5 +1,5 @@
-import './App.css';
-import EditText from './components/Taskedit'
+import './styles/App.css';
+import EditText from './components/TaskEdit';
 
 function App() {
   return (

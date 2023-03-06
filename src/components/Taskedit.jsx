@@ -1,4 +1,4 @@
-import '../components/Taskedit.css';
+import '../styles/taskedit.css';
 
 function Taskedit (){
     return(
