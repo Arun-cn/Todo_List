@@ -1,0 +1,20 @@
+.cardcontiner{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+.cardleftside{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.cardrightside{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
