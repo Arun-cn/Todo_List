@@ -4,11 +4,12 @@ import '../styles/taskedit.css';
 function Taskedit (props){
     const [item,setItem]= useState('');
 
+
     const handleSubmit = (event)=>{
         event.preventDefault();
         
        
-        const newItem = {item };
+        const newItem = {id:Date.now(), completed : false, todo:item };
         props.onSubmit(newItem);
         setItem('');
     };
