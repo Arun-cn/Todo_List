@@ -29,10 +29,11 @@ function App() {
 
   return (
     <div className="App">
-       <h1>TODO LIST</h1>
+       
        <div className='todoappcontiner'>
+       <h1>TODO LIST</h1>
         <EditText onSubmit={handleSubmit} ></EditText>   
-        <div>
+        <div className='todoscontiner'>
           {toDos.map((toDo)=>{
             
              return <TodoItemCard key={toDo.id} item={toDo.todo } complited={toDo.completed} itemId={toDo.id} onButtonClick={todoItemDelete} onCheck={taskCompleted}></TodoItemCard>

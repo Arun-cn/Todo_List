@@ -1,4 +1,21 @@
 .editContiner{
-   background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+   width: 75%;
     border-radius: 10px;
+}
+.exittext{
+   width: 70%;
+    height: 25px;
+    border-radius: 10px;
+    margin-right: 10px;
+   border-style: none;
+}
+.addButton{
+    width: 20%;
+    border-radius: 5px;
+    height: 27px;
+    width: 80px;
+    background-color: #A7F3D0;
+    border-style: none;
 }

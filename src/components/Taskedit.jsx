@@ -17,7 +17,7 @@ function Taskedit (props){
     return(
         <form onSubmit={handleSubmit} className='editContiner'>
             <input type="text" className='exittext' value={item} onChange={(event)=>{setItem(event.target.value)}} ></input>
-            <button type='submit' className='addButton'>+</button>
+            <button type='submit' className='addButton'>ADD</button>
 
         </form>
     );
