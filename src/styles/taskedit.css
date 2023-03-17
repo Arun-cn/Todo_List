@@ -14,8 +14,12 @@
 .addButton{
     width: 20%;
     border-radius: 5px;
-    height: 27px;
+    height: 29px;
     width: 80px;
-    background-color: #A7F3D0;
-    border-style: none;
+    background-color: #2f7b46;
+    
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
 }

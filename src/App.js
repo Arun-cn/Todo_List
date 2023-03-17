@@ -31,7 +31,7 @@ function App() {
     <div className="App">
        
        <div className='todoappcontiner'>
-       <h1>TODO LIST</h1>
+       <h1 className='app-name'>TODO LIST</h1>
         <EditText onSubmit={handleSubmit} ></EditText>   
         <div className='todoscontiner'>
           {toDos.map((toDo)=>{

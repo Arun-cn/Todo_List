@@ -23,7 +23,13 @@
 .todoscontiner{
   margin-top: 30px;
   width: 75%;
+  overflow: auto;
+  margin-bottom: 30px;
   
+}
+.app-name{
+
+  color:#CCE4F7;
 }
 
 

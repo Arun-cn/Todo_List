@@ -19,11 +19,11 @@ function TodoItemCard (props){
         <div className='cardcontiner'>
             <div className='cardleftside'>
                 <input type="checkbox" checked={isChecked} name="isDone" id="checker" onChange={handleCompleted}/>
-                <label style={{ textDecoration: isChecked ? 'line-through' : 'none' }}>{props.item} </label>
+                <label style={{ textDecoration: isChecked ? 'line-through' : 'none' }} className='todo-text' >{props.item} </label>
             </div>
             
             <div className='cardrightside'>
-                <button onClick={handleDelete} >Delete</button>
+                <button className='carddeletebutton' onClick={handleDelete} >Delete</button>
             </div> 
         </div>
     );
